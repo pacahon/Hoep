@@ -15,7 +15,6 @@ class ExtensionsTestCase(ut.TestCase):
             'fenced_code': h.EXT_FENCED_CODE,
             'footnotes': h.EXT_FOOTNOTES,
             'highlight': h.EXT_HIGHLIGHT,
-            'lax_spacing': h.EXT_LAX_SPACING,
             'no_indented_code': h.EXT_DISABLE_INDENTED_CODE,
             'no_intra_emphasis': h.EXT_NO_INTRA_EMPHASIS,
             'quote': h.EXT_QUOTE,

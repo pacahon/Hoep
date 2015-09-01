@@ -58,7 +58,6 @@ You can enable multiple extensions by bitwise ORing them.
 -  ``EXT_FENCED_CODE``: Enables fenced code blocks.
 -  ``EXT_FOOTNOTES``: Enables `Markdown Extra style footnotes`_.
 -  ``EXT_HIGHLIGHT``: Enables ==marking== text.
--  ``EXT_LAX_SPACING``: Removes the need for an empty line between Markdown and raw HTML.
 -  ``EXT_NO_INTRA_EMPHASIS``: Disables emphasis\_between\_words.
 -  ``EXT_QUOTE``: "Quotes" are translated into ``<q>`` tags.
 -  ``EXT_SPACE_HEADERS``: ATX style headers require a space after the opening number sign(s).
@@ -66,6 +65,8 @@ You can enable multiple extensions by bitwise ORing them.
 -  ``EXT_SUPERSCRIPT``: Enables super^script.
 -  ``EXT_TABLES``: Enables `Markdown Extra style tables`_.
 -  ``EXT_UNDERLINE``: Translates ``<em>`` tags into ``<u>`` tags.
+-  ``EXT_MATH``: Parse TeX $$math$$ syntax, Kramdown style.
+-  ``EXT_MATH_EXPLICIT``: Instead of guessing by context, parse $inline math$ and $$always block math$$ (requires --math).
 
 Render flags
 ~~~~~~~~~~~~
@@ -74,7 +75,6 @@ You can enable multiple render flags by bitwise ORing them.
 
 -  ``HTML_ESCAPE``: All HTML is escaped.
 -  ``HTML_HARD_WRAP``: Line breaks are translated into ``<br>`` tags.
--  ``HTML_SAFELINK``: Only links to safe protocols are allowed.
 -  ``HTML_SKIP_HTML``: All HTML tags are stripped.
 -  ``HTML_SMARTYPANTS``: Enables SmartyPants.
 -  ``HTML_USE_XHTML``: Renders XHTML instead of HTML.

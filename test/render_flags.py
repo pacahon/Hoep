@@ -12,7 +12,6 @@ class RenderFlagsTestCase(ut.TestCase):
         self.render_flags = {
             'escape': h.HTML_ESCAPE,
             'hard_wrap': h.HTML_HARD_WRAP,
-            'safelink': h.HTML_SAFELINK,
             'skip_html': h.HTML_SKIP_HTML,
             'skip_images': h.HTML_SKIP_IMAGES,
             'skip_links': h.HTML_SKIP_LINKS,
