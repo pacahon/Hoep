@@ -60,6 +60,8 @@ You can enable multiple extensions by bitwise ORing them.
 + `EXT_SUPERSCRIPT`: Enables super\^script.
 + `EXT_TABLES`: Enables [Markdown Extra style tables][syntax-tables].
 + `EXT_UNDERLINE`: Translates `<em>` tags into `<u>` tags.
++ `EXT_MATH`: Parse TeX $$math$$ syntax, Kramdown style.
++ `EXT_MATH_EXPLICIT`: Instead of guessing by context, parse $inline math$ and $$always block math$$ (requires --math).
 
 ### Render flags
 

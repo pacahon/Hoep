@@ -283,6 +283,8 @@ PyMODINIT_FUNC inithoep(void) {
     PyModule_AddIntConstant(mod, "EXT_SUPERSCRIPT", HOEDOWN_EXT_SUPERSCRIPT);
     PyModule_AddIntConstant(mod, "EXT_TABLES", HOEDOWN_EXT_TABLES);
     PyModule_AddIntConstant(mod, "EXT_UNDERLINE", HOEDOWN_EXT_UNDERLINE);
+    PyModule_AddIntConstant(mod, "EXT_MATH", HOEDOWN_EXT_MATH);
+    PyModule_AddIntConstant(mod, "EXT_MATH_EXPLICIT", HOEDOWN_EXT_MATH_EXPLICIT);
     
     PyModule_AddIntConstant(mod, "HTML_ESCAPE", HOEDOWN_HTML_ESCAPE);
     PyModule_AddIntConstant(mod, "HTML_HARD_WRAP", HOEDOWN_HTML_HARD_WRAP);
